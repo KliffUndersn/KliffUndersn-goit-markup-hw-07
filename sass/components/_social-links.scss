@@ -14,6 +14,10 @@
   &:focus .social-link__image-footer {
     fill: var(--color-white);
   }
+  &:hover .social-list__image,
+  &:focus .social-list__image {
+    fill: var(--color-white);
+  }
 }
 
 .social-link__list {

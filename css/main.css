@@ -381,6 +381,7 @@ img {
 
 .footer__flex {
   display: flex;
+  align-items: baseline;
 }
 
 .footer__container {
@@ -420,7 +421,6 @@ img {
 }
 
 .footer-form__container {
-  padding-top: 12px;
   margin-left: 93px;
 }
 
@@ -478,7 +478,6 @@ img {
 }
 
 .footer-form__list {
-  padding-top: 12px;
   margin-left: 70px;
 }
 
@@ -628,6 +627,11 @@ img {
 
 .social-link__link:hover .social-link__image-footer,
 .social-link__link:focus .social-link__image-footer {
+  fill: var(--color-white);
+}
+
+.social-link__link:hover .social-list__image,
+.social-link__link:focus .social-list__image {
   fill: var(--color-white);
 }
 

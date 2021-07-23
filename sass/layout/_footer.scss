@@ -4,6 +4,7 @@
 
 .footer__flex {
   display: flex;
+  align-items: baseline;
 }
 
 .footer__container {
@@ -43,7 +44,6 @@
 }
 
 .footer-form__container {
-  padding-top: 12px;
   margin-left: 93px;
 }
 
@@ -104,6 +104,5 @@
   color: var(--color-white);
 }
 .footer-form__list {
-  padding-top: 12px;
   margin-left: 70px;
 }
